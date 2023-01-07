@@ -4,7 +4,7 @@ import React from 'react';
 import { Image, SafeAreaView, Text, TouchableOpacity, View } from 'react-native';
 import MapView from 'react-native-maps';
 import * as Progress from 'react-native-progress';
-import { Marker } from 'react-native-svg';
+import { Marker } from 'react-native-maps';
 
 
 const DeliveryScreen = () => {
