@@ -1,11 +1,11 @@
 import React from 'react'
 import { Image, Text, TouchableOpacity } from 'react-native'
 
-const CategoryCard = ({ imgUrl, title }) => {
+const CategoryCard = ({ id, imgUrl, title }) => {
     return (
-        <TouchableOpacity className="">
+        <TouchableOpacity className="" key={id}>
             <Image className="h-20 w-20 bg-gray-300 rounded mx-2"
-                source={{ uri: "https://images.pexels.com/photos/46239/salmon-dish-food-meal-46239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" }} />
+                source={{ uri: imgUrl }} />
             <Text className="absolute bottom-1 left-3 text-white font-bold">
                 {title}</Text>
         </TouchableOpacity>

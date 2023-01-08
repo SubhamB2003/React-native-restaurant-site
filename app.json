@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "deliveroo-app",
-    "slug": "deliveroo-app",
+    "name": "Delivery App",
+    "slug": "delivery-app",
+    "description": "Awesome delivery app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

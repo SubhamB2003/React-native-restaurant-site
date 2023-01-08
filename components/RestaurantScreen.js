@@ -63,16 +63,16 @@ const RestaurantScreen = () => {
 
                 <View className="bg-white pb-36">
                     <Text className="text-xl px-4 pt-6 mb-3 font-bold">Menu</Text>
-                    <DishRow id="1" name="Sushi" description="the body of knowledge, especially of a traditional."
-                        price="500" image="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-                    <DishRow id="2" name="Noddles" description="the body of knowledge, especially of a traditional."
-                        price="400" image="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-                    <DishRow id="3" name="Biriyani" description="the body of knowledge, especially of a traditional."
-                        price="600" image="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-                    <DishRow id="4" name="Cake" description="the body of knowledge, especially of a traditional."
-                        price="900" image="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-                    <DishRow id="5" name="Coca" description="the body of knowledge, especially of a traditional."
-                        price="300" image="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                    <DishRow id="1" name="Dish" description="the body of knowledge, especially of a traditional."
+                        price="500" image="https://images.unsplash.com/photo-1512152272829-e3139592d56f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzdCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80" />
+                    <DishRow id="2" name="Dish" description="the body of knowledge, especially of a traditional."
+                        price="400" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXFzM8sULbV3uydmTtFHLPkI1KEFvN72Sn9w_PMICYZkN_OIHOCt5ddBJx-mM63Q0QPq4&usqp=CAU" />
+                    <DishRow id="3" name="Dish" description="the body of knowledge, especially of a traditional."
+                        price="600" image="https://c0.wallpaperflare.com/preview/5/191/602/tandoori-chicken-tikka-indian-food-indian-kitchen.jpg" />
+                    <DishRow id="4" name="Biriyani" description="the body of knowledge, especially of a traditional."
+                        price="900" image="https://media.istockphoto.com/id/1333127675/photo/chicken-biryani-spicy-indian-malabar-biryani-hyderabadi-biryani-dum-biriyani-pulao-golden.jpg?b=1&s=170667a&w=0&k=20&c=Exy5Kso6M8xZLKjcZ00NHsgQmk2KSfwP6Q_ZiAqM8Ho=" />
+                    <DishRow id="5" name="Dish" description="the body of knowledge, especially of a traditional."
+                        price="300" image="https://imgmedia.lbb.in/media/2020/06/5ee727ff0109343fcf9f4f5d_1592207359288.jpg" />
                 </View>
             </ScrollView>
         </>
